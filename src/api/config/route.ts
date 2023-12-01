@@ -1,0 +1,17 @@
+const BACKEND_API_URL = process.env.REACT_APP_BACKEND_API_URL
+const STORAGE_API_URL = process.env.REACT_APP_STORAGE_API_URL
+const CMS_API_URL = process.env.REACT_APP_CMS_API_URL
+const CRON_JOBS_API_URL = process.env.REACT_APP_CRON_JOBS_API_URL
+const NOTIFICATION_API_URL = process.env.REACT_APP_NOTIFICATION_API_URL
+const QUIZ_SERVICE_API_URL = process.env.REACT_APP_QUIZ_SERVICE_API_URL
+const BACKEND_TRIAL_TEST_API_URL = process.env.REACT_APP_TRIAL_TEST_API_URL
+
+export const ROUTE_ALIAS = {
+    '/core/': BACKEND_API_URL,
+    '/st/': STORAGE_API_URL,
+    '/cms/': CMS_API_URL,
+    '/cron-jobs': CRON_JOBS_API_URL,
+    '/noti': NOTIFICATION_API_URL,
+    '/quiz-svc': QUIZ_SERVICE_API_URL,
+    '/trial-test/': BACKEND_TRIAL_TEST_API_URL
+}

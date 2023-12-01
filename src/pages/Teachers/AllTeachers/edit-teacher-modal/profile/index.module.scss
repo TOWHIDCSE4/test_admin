@@ -1,0 +1,128 @@
+.wrapProfile {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.titleHeader {
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0356d2;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+.titleHeader {
+    position: relative;
+}
+.titleHeader::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    width: 5px;
+    height: 15px;
+    background-color: #066fd6;
+}
+.introduction h4,
+.experience h4,
+.skill h4,
+.certificate h4,
+.video_introduction h4,
+.upload_cv h4,
+.update_DegreeCertificate h4 {
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #252b2f;
+}
+.introduction h4,
+.experience h4 {
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.skill,
+.certificate,
+.video_introduction,
+.upload_cv,
+.update_DegreeCertificate {
+    padding-bottom: 24px;
+}
+.skill h4,
+.video_introduction h4,
+.upload_cv h4,
+.update_DegreeCertificate h4 {
+    padding-bottom: 22px;
+}
+.skill h4 {
+    padding-top: 30px;
+}
+.introduction p,
+.experience p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #252b2f;
+    padding-left: 1px;
+}
+.certificate {
+    // h4 {
+    //     text-align: center;
+    // }
+    .certificateItem {
+        // text-align: center;
+        overflow: hidden;
+        flex-basis: 50%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .wrapProfile h4{
+        margin-bottom: 0px;
+    }
+    .introduction h4,
+    .experience h4 {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .skill,
+    .certificate
+    .video_introduction,
+    .upload_cv,
+    .update_DegreeCertificate {
+        padding-bottom: 24px;
+    }
+    .skill h4,
+    .certificate h4,
+    .video_introduction h4,
+    .upload_cv h4,
+    .update_DegreeCertificate h4 {
+        padding-bottom: 22px;
+    }
+    .skill h4 {
+        padding-bottom: 0px;
+    }
+
+    // .certificate {
+    //     h4 {
+    //         text-align: left;
+    //     }
+    //     .certificateItem {
+    //         text-align: left;
+    //     }
+    // }
+}

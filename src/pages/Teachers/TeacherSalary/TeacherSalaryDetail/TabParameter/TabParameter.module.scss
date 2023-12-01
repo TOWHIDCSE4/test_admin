@@ -1,0 +1,165 @@
+.wrapTab {
+    margin-top: 20px;
+}
+.btnTab {
+    /* padding-right: 55px;
+    padding-left: 30px;
+    padding-top: 28px;
+    padding-bottom: 28px; */
+}
+.btnTab div:first-child {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    text-align: left;
+}
+.btnTab div:last-child span {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+.btnTab div:last-child {
+    font-size: 33px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+.NavPill {
+    justify-content: center;
+}
+.NavPill a {
+    padding-right: 55px;
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.line {
+    width: 15px;
+    height: 5px;
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .NavPill a {
+        padding-right: 23px;
+        padding-left: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .btnTab div:first-child {
+        font-size: 13px;
+    }
+    .btnTab div:last-child span {
+        font-size: 10px;
+    }
+    .btnTab div:last-child {
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 425px) {
+    .btnTab div:first-child {
+        font-size: 15px;
+    }
+    .btnTab div:last-child span {
+        font-size: 12px;
+    }
+    .btnTab div:last-child {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .btnTab div:first-child {
+        font-size: 13px;
+    }
+    .btnTab div:last-child span {
+        font-size: 10px;
+    }
+    .btnTab div:last-child {
+        font-size: 32px;
+    }
+}
+
+.table {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.tableItem {
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+}
+.tableItem div {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    border-right: 1px solid #fafafc;
+    flex: 1;
+    p {
+        margin: 0;
+    }
+    &:nth-child(4) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+
+    &:first-child {
+        width: 50px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        flex: unset;
+    }
+    &:last-child {
+        min-width: 150px;
+        max-width: 150px;
+        border-right: none;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        text-align: right !important;
+        flex: unset;
+    }
+}
+.headTable .tableItem div {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.33;
+    letter-spacing: normal;
+    color: #252b2f;
+}
+
+.tableItem div .tableItem div .tableItem div .contentTable {
+    margin-top: 10px;
+}
+.contentTable .tableItem {
+    margin-top: 10px;
+    div {
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #252b2f;
+    }
+}
+
+.itemCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentTable .totalSalary div {
+    font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.popuplevel {
+    width: 400px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.student-management-table tbody td {
+    padding: 0px !important;
+}
+.max-height {
+    height: max-content;
+    max-height: 160px;
+    padding: 10px;
+    overflow-y: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    li {
+        padding: 3px 0px;
+    }
+}
+
+.max-width {
+    max-width: 400px;
+}
+

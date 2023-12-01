@@ -1,0 +1,8 @@
+.modal-feature-role {
+    height: calc(100vh - 200px);
+
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+        padding: 5px 16px;
+    }
+
+}

@@ -1,0 +1,38 @@
+.ph-sidebar {
+    height: 100vh;
+    overflow: auto;
+}
+
+@media (min-width: 992px){
+    #show_menu_mobile {
+        display: none;
+    }
+
+    #hide_menu_mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 991.98px){
+    .sidebar {
+        margin-left: 0;
+    }
+
+    #sidebar_menu {
+        display: none;
+    }
+
+    #show_menu_mobile {
+        display: block;
+    }
+
+    #hide_menu_mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 499.98px){
+    .hide-menu-content {
+        display: none;
+    }
+}

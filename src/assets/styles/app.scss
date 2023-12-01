@@ -1,0 +1,82 @@
+@import './noti.scss';
+// @import "./page-builder.scss";
+
+body {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #505d69;
+    overflow-y: auto;
+    background-color: #f1f5f7;
+}
+
+.main-content {
+    padding: 20px;
+    .ant-card {
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid #f1f5f7;
+        border-radius: 0.25rem;
+        margin-bottom: 24px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+}
+
+.pull-right {
+    float: right;
+}
+
+.loading__emu {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    > div {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 37%;
+    }
+    :after {
+        display: none;
+    }
+}
+
+.image-cropper {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.teacher-level {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    > span {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+button:focus {
+    outline: unset;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.completed {
+    color: #52c41a;
+}
+
+.absent,
+.cancel {
+    color: #ff4d4f;
+}

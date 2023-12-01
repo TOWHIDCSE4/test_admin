@@ -1,0 +1,18 @@
+.uploadButton {
+    background-color: #dbdbdb;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5d5d5d;
+    padding: 10px 22px 10px 21px;
+    height: auto;
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .uploadButton {
+        padding: 4px 16px;
+    }
+}

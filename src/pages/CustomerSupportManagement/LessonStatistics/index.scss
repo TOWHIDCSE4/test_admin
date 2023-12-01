@@ -1,0 +1,57 @@
+.statistic {
+    .completed {
+        color: #52c41a;
+    }
+    .cancel {
+        color: #ff4d4f;
+    }
+    p {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+.mobile-button-view-all {
+    display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) { 
+    .filter-lesson-statistics {
+        width: 200px !important;
+        margin-left: 25px;
+    }
+
+    .mobile-button-view-all {
+        display: block !important;
+    }
+
+    .desktop-button-view-all {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 999px) { 
+    .filter-lesson-statistics {
+        width: 350px !important;
+    }
+
+    .mobile-button-view-all {
+        display: block !important;
+    }
+
+    .desktop-button-view-all {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1279px){ 
+    .filter-lesson-statistics {
+        width: 400px !important;
+    }
+}
+
+@media screen and (min-width: 1281px){ 
+    .filter-lesson-statistics {
+        width: 600px !important;
+    }
+}
